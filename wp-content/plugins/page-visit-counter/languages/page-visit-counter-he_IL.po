@@ -1,0 +1,293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: page visit counter\n"
+"POT-Creation-Date: 2016-04-05 11:11+0530\n"
+"PO-Revision-Date: 2016-04-05 11:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: multidots\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-page-visit-counter-admin.php:117
+msgid "Clear"
+msgstr "ברור"
+
+#: admin/class-page-visit-counter-admin.php:117
+msgid "Default"
+msgstr "בְּרִירַת מֶחדָל"
+
+#: admin/class-page-visit-counter-admin.php:117
+msgid "Select Color"
+msgstr "בחר צבע"
+
+#: admin/class-page-visit-counter-admin.php:143
+msgid "Page-Visit-Counter"
+msgstr "עמוד בקר מונה"
+
+#: admin/class-page-visit-counter-admin.php:143
+msgid "PageVisitCounter"
+msgstr "עמוד בקר מונה"
+
+#: admin/class-page-visit-counter-admin.php:144
+msgid "Counter-Settings"
+msgstr "מתפרץ הגדרות"
+
+#: admin/class-page-visit-counter-admin.php:144
+msgid "Settings"
+msgstr "הגדרות"
+
+#: admin/class-page-visit-counter-admin.php:154
+msgid "Page Visit Counter"
+msgstr "עמוד בקר מונה"
+
+#: admin/class-page-visit-counter-admin.php:158
+msgid "Top Browsers"
+msgstr "למעלה דפדפנים"
+
+#: admin/class-page-visit-counter-admin.php:159
+msgid "Top 10 IP address"
+msgstr "כתובת IP Top 10"
+
+#: admin/class-page-visit-counter-admin.php:160
+msgid "Top referer"
+msgstr "המפנה למעלה"
+
+#: admin/class-page-visit-counter-admin.php:161
+msgid "Weekly report"
+msgstr "דו\"ח שבועי"
+
+#: admin/class-page-visit-counter-admin.php:162
+msgid "Monthly report"
+msgstr "דו\"ח חודשי"
+
+#: admin/class-page-visit-counter-admin.php:163
+msgid "Yearly Visit Report"
+msgstr "דווח ביקור שנתי"
+
+#: admin/class-page-visit-counter-admin.php:198
+msgid "Search by page title"
+msgstr "חיפוש לפי כותרת דף"
+
+#: admin/class-page-visit-counter-admin.php:198
+msgid "Search by page date"
+msgstr "חיפוש לפי תאריך הדף"
+
+#: admin/class-page-visit-counter-admin.php:198
+msgid "Search Page"
+msgstr "עמוד חיפוש"
+
+#: admin/class-page-visit-counter-admin.php:205
+#: admin/class-page-visit-counter-admin.php:238
+#: admin/class-page-visit-counter-admin.php:509
+#: admin/class-page-visit-counter-admin.php:567
+#: admin/class-page-visit-counter-admin.php:599
+#: admin/class-page-visit-counter-admin.php:626
+#: admin/class-page-visit-counter-admin.php:638
+#: admin/class-page-visit-counter-admin.php:697
+#: admin/class-page-visit-counter-admin.php:765
+msgid "No"
+msgstr "לא"
+
+#: admin/class-page-visit-counter-admin.php:206
+#: admin/class-page-visit-counter-admin.php:239
+#: admin/class-page-visit-counter-admin.php:510
+#: admin/class-page-visit-counter-admin.php:568
+#: admin/class-page-visit-counter-admin.php:600
+#: admin/class-page-visit-counter-admin.php:627
+#: admin/class-page-visit-counter-admin.php:639
+#: admin/class-page-visit-counter-admin.php:698
+msgid "Page ID"
+msgstr "עמוד ID"
+
+#: admin/class-page-visit-counter-admin.php:207
+#: admin/class-page-visit-counter-admin.php:240
+#: admin/class-page-visit-counter-admin.php:511
+#: admin/class-page-visit-counter-admin.php:569
+#: admin/class-page-visit-counter-admin.php:601
+#: admin/class-page-visit-counter-admin.php:628
+#: admin/class-page-visit-counter-admin.php:640
+#: admin/class-page-visit-counter-admin.php:699
+msgid "Page Title"
+msgstr "כותרת העמוד"
+
+#: admin/class-page-visit-counter-admin.php:208
+#: admin/class-page-visit-counter-admin.php:241
+#: admin/class-page-visit-counter-admin.php:413
+#: admin/class-page-visit-counter-admin.php:512
+#: admin/class-page-visit-counter-admin.php:570
+#: admin/class-page-visit-counter-admin.php:602
+#: admin/class-page-visit-counter-admin.php:629
+#: admin/class-page-visit-counter-admin.php:641
+#: admin/class-page-visit-counter-admin.php:700
+msgid "Total Count"
+msgstr "ספירה כוללת"
+
+#: admin/class-page-visit-counter-admin.php:209
+#: admin/class-page-visit-counter-admin.php:242
+#: admin/class-page-visit-counter-admin.php:513
+#: admin/class-page-visit-counter-admin.php:571
+#: admin/class-page-visit-counter-admin.php:603
+#: admin/class-page-visit-counter-admin.php:630
+#: admin/class-page-visit-counter-admin.php:642
+#: admin/class-page-visit-counter-admin.php:701
+msgid "Share"
+msgstr "לַחֲלוֹק"
+
+#: admin/class-page-visit-counter-admin.php:210
+#: admin/class-page-visit-counter-admin.php:243
+#: admin/class-page-visit-counter-admin.php:514
+#: admin/class-page-visit-counter-admin.php:572
+#: admin/class-page-visit-counter-admin.php:604
+#: admin/class-page-visit-counter-admin.php:631
+#: admin/class-page-visit-counter-admin.php:643
+#: admin/class-page-visit-counter-admin.php:702
+msgid "Report"
+msgstr "להגיש תלונה"
+
+#: admin/class-page-visit-counter-admin.php:232
+#: admin/class-page-visit-counter-admin.php:561
+#: admin/class-page-visit-counter-admin.php:621
+#: admin/class-page-visit-counter-admin.php:691
+msgid "View Report"
+msgstr "צפה בדוח"
+
+#: admin/class-page-visit-counter-admin.php:297
+msgid "Page Counter Settings"
+msgstr "הגדרות מונות עמוד"
+
+#: admin/class-page-visit-counter-admin.php:305
+msgid "Post Type"
+msgstr "סוג ההודעה"
+
+#: admin/class-page-visit-counter-admin.php:307
+msgid "Add Page/Post Type"
+msgstr "הוסף דף / פוסט סוג"
+
+#: admin/class-page-visit-counter-admin.php:316
+msgid "(Select post types for which post views will be counted.)"
+msgstr "( בחר סוגים פוסט עבורו עמדות פוסט ייספרו . )"
+
+#: admin/class-page-visit-counter-admin.php:316
+msgid ""
+"Note: If you leave the blank then it will count for all the post/page "
+"registered in your theme."
+msgstr ""
+"הערה : אם תשאיר את ריקים, אז הוא ייחשב עבור כל הפוסט / הדף הרשום הנושא שלך ."
+
+#: admin/class-page-visit-counter-admin.php:320
+msgid "Exclude IPs (Ip Address)"
+msgstr "אל תכלול כתובות IP ( כתובת IP)"
+
+#: admin/class-page-visit-counter-admin.php:322
+msgid "Add IP Address in comma seprated"
+msgstr "להוסיף כתובת IP ב פסיק seprated"
+
+#: admin/class-page-visit-counter-admin.php:330
+msgid "(Enter the IP addresses to be excluded from post views count.)"
+msgstr "( הזן את כתובות ה- IP שלא ייכלל עמדות פוסט לספור . )"
+
+#: admin/class-page-visit-counter-admin.php:335
+msgid "Exclude Users"
+msgstr "אל תכלול משתמשים"
+
+#: admin/class-page-visit-counter-admin.php:337
+msgid "Select Registerd Users"
+msgstr "בחירת משתמשים registerd"
+
+#: admin/class-page-visit-counter-admin.php:346
+msgid "(Select the users to be excluded from post views count.)"
+msgstr "( בחר את המשתמשים שלא להיכלל ספירת צפיות הודעה . )"
+
+#: admin/class-page-visit-counter-admin.php:350
+msgid "Show front view counter"
+msgstr "צג מונה צפיות קדמי"
+
+#: admin/class-page-visit-counter-admin.php:357
+msgid "Check the box if you want to display counter view on front end."
+msgstr "סמן את התיבה אם אתה רוצה להציג מונה צפיות על קצה קדמי ."
+
+#: admin/class-page-visit-counter-admin.php:360
+msgid "Choose color for the front end view"
+msgstr "בחר צבע עבור התצוגה החזיתית"
+
+#: admin/class-page-visit-counter-admin.php:376
+msgid "Save"
+msgstr "להציל"
+
+#: admin/class-page-visit-counter-admin.php:377
+msgid "Settings saved Sucessfully."
+msgstr "הגדרות נשמרו בהצלחה ."
+
+#: admin/class-page-visit-counter-admin.php:382
+msgid "Short Code"
+msgstr "קוד קצר"
+
+#: admin/class-page-visit-counter-admin.php:383
+msgid ""
+"There are two shortcodes that you can use to manually add page view count to "
+"any content on admin or post/page template created by your theme or plugin "
+"thats create it's own display content in page/post."
+msgstr ""
+"ישנם שני מספרים מקוצרים שאתה יכול להשתמש בו כדי להוסיף מספר צפיות דפים באופן "
+"ידני לכל חומר מנהל או פוסט / תבנית דף נוצרה על ידי thats הנושא או התוסף שלך "
+"ליצור תוכן תצוגה זה לבד בדף / פוסט ."
+
+#: admin/class-page-visit-counter-admin.php:384
+msgid "Use this shortcode to add admin side content on page/post:"
+msgstr "השתמש וגלישה זה כדי להוסיף תוכן צד Admin ב הדף / פוסט :"
+
+#: admin/class-page-visit-counter-admin.php:385
+msgid ""
+"Use this shortcode to add page/post template (.php) file of your own "
+"template:"
+msgstr ""
+"השתמש וגלישה זה כדי להוסיף תבנית דף / פוסט ( .php ) קובץ של תבנית משלך :"
+
+#: admin/class-page-visit-counter-admin.php:401
+msgid "Most Visited Page"
+msgstr "רוב בקר בדף"
+
+#: admin/class-page-visit-counter-admin.php:411
+msgid "Page id"
+msgstr "עמוד id"
+
+#: admin/class-page-visit-counter-admin.php:412
+msgid "Page Name"
+msgstr "שם דף"
+
+#: admin/class-page-visit-counter-admin.php:735
+msgid "Total Visits"
+msgstr "סך כל הביקורים"
+
+#: admin/class-page-visit-counter-admin.php:761
+msgid "Do you want to enable page visits count for this page?"
+msgstr "האם אתה רוצה לאפשר ביקורי ספירת דפים עבור דף זה ?"
+
+#: admin/class-page-visit-counter-admin.php:764
+msgid "Yes"
+msgstr "כן"
+
+#: admin/class-page-visit-counter-admin.php:770
+msgid "Total visits:"
+msgstr "סך כל הביקורים :"
+
+#: admin/class-page-visit-counter-html-output.php:311
+msgid "Select a page&hellip;"
+msgstr "בחר דף & hellip ;"
+
+#: page_visit_counter.php:120 page_visit_counter.php:126
+#: public/class-page-visit-counter-public.php:558
+#: public/class-page-visit-counter-public.php:564
+msgid "total visits."
+msgstr "סך כל הביקורים ."
+
+#: page_visit_counter.php:131 page_visit_counter.php:134
+msgid "Please enter the valid post or page id."
+msgstr "נא להזין את קוד הודעה או דף התקף ."

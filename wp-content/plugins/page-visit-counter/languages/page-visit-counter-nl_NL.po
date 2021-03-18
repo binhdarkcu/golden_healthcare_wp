@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: page visit counter\n"
+"POT-Creation-Date: 2016-04-05 11:19+0530\n"
+"PO-Revision-Date: 2016-04-05 11:20+0530\n"
+"Last-Translator: \n"
+"Language-Team: multidots\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-page-visit-counter-admin.php:117
+msgid "Clear"
+msgstr "Duidelijk"
+
+#: admin/class-page-visit-counter-admin.php:117
+msgid "Default"
+msgstr "Standaard"
+
+#: admin/class-page-visit-counter-admin.php:117
+msgid "Select Color"
+msgstr "Kies Kleur"
+
+#: admin/class-page-visit-counter-admin.php:143
+msgid "Page-Visit-Counter"
+msgstr "Pagina Bezoek Counter"
+
+#: admin/class-page-visit-counter-admin.php:143
+msgid "PageVisitCounter"
+msgstr "Pagina Bezoek Counter"
+
+#: admin/class-page-visit-counter-admin.php:144
+msgid "Counter-Settings"
+msgstr "Counter- instellingen"
+
+#: admin/class-page-visit-counter-admin.php:144
+msgid "Settings"
+msgstr "instellingen"
+
+#: admin/class-page-visit-counter-admin.php:154
+msgid "Page Visit Counter"
+msgstr "Pagina Bezoek Counter"
+
+#: admin/class-page-visit-counter-admin.php:158
+msgid "Top Browsers"
+msgstr "Top Browsers"
+
+#: admin/class-page-visit-counter-admin.php:159
+msgid "Top 10 IP address"
+msgstr "Top 10 IP -adres"
+
+#: admin/class-page-visit-counter-admin.php:160
+msgid "Top referer"
+msgstr "Top referer"
+
+#: admin/class-page-visit-counter-admin.php:161
+msgid "Weekly report"
+msgstr "Wekelijks verslag"
+
+#: admin/class-page-visit-counter-admin.php:162
+msgid "Monthly report"
+msgstr "Maandelijks rapport"
+
+#: admin/class-page-visit-counter-admin.php:163
+msgid "Yearly Visit Report"
+msgstr "Jaarlijkse Visit Report"
+
+#: admin/class-page-visit-counter-admin.php:198
+msgid "Search by page title"
+msgstr "Zoeken op pagina titel"
+
+#: admin/class-page-visit-counter-admin.php:198
+msgid "Search by page date"
+msgstr "Zoeken op page date"
+
+#: admin/class-page-visit-counter-admin.php:198
+msgid "Search Page"
+msgstr "Zoekpagina"
+
+#: admin/class-page-visit-counter-admin.php:205
+#: admin/class-page-visit-counter-admin.php:238
+#: admin/class-page-visit-counter-admin.php:509
+#: admin/class-page-visit-counter-admin.php:567
+#: admin/class-page-visit-counter-admin.php:599
+#: admin/class-page-visit-counter-admin.php:626
+#: admin/class-page-visit-counter-admin.php:638
+#: admin/class-page-visit-counter-admin.php:697
+#: admin/class-page-visit-counter-admin.php:765
+msgid "No"
+msgstr "Nee"
+
+#: admin/class-page-visit-counter-admin.php:206
+#: admin/class-page-visit-counter-admin.php:239
+#: admin/class-page-visit-counter-admin.php:510
+#: admin/class-page-visit-counter-admin.php:568
+#: admin/class-page-visit-counter-admin.php:600
+#: admin/class-page-visit-counter-admin.php:627
+#: admin/class-page-visit-counter-admin.php:639
+#: admin/class-page-visit-counter-admin.php:698
+msgid "Page ID"
+msgstr "pagina ID"
+
+#: admin/class-page-visit-counter-admin.php:207
+#: admin/class-page-visit-counter-admin.php:240
+#: admin/class-page-visit-counter-admin.php:511
+#: admin/class-page-visit-counter-admin.php:569
+#: admin/class-page-visit-counter-admin.php:601
+#: admin/class-page-visit-counter-admin.php:628
+#: admin/class-page-visit-counter-admin.php:640
+#: admin/class-page-visit-counter-admin.php:699
+msgid "Page Title"
+msgstr "Pagina titel"
+
+#: admin/class-page-visit-counter-admin.php:208
+#: admin/class-page-visit-counter-admin.php:241
+#: admin/class-page-visit-counter-admin.php:413
+#: admin/class-page-visit-counter-admin.php:512
+#: admin/class-page-visit-counter-admin.php:570
+#: admin/class-page-visit-counter-admin.php:602
+#: admin/class-page-visit-counter-admin.php:629
+#: admin/class-page-visit-counter-admin.php:641
+#: admin/class-page-visit-counter-admin.php:700
+msgid "Total Count"
+msgstr "Totaal"
+
+#: admin/class-page-visit-counter-admin.php:209
+#: admin/class-page-visit-counter-admin.php:242
+#: admin/class-page-visit-counter-admin.php:513
+#: admin/class-page-visit-counter-admin.php:571
+#: admin/class-page-visit-counter-admin.php:603
+#: admin/class-page-visit-counter-admin.php:630
+#: admin/class-page-visit-counter-admin.php:642
+#: admin/class-page-visit-counter-admin.php:701
+msgid "Share"
+msgstr "Delen"
+
+#: admin/class-page-visit-counter-admin.php:210
+#: admin/class-page-visit-counter-admin.php:243
+#: admin/class-page-visit-counter-admin.php:514
+#: admin/class-page-visit-counter-admin.php:572
+#: admin/class-page-visit-counter-admin.php:604
+#: admin/class-page-visit-counter-admin.php:631
+#: admin/class-page-visit-counter-admin.php:643
+#: admin/class-page-visit-counter-admin.php:702
+msgid "Report"
+msgstr "Rapport"
+
+#: admin/class-page-visit-counter-admin.php:232
+#: admin/class-page-visit-counter-admin.php:561
+#: admin/class-page-visit-counter-admin.php:621
+#: admin/class-page-visit-counter-admin.php:691
+msgid "View Report"
+msgstr "Rapport weergeven"
+
+#: admin/class-page-visit-counter-admin.php:297
+msgid "Page Counter Settings"
+msgstr "Pagina Counter -instellingen"
+
+#: admin/class-page-visit-counter-admin.php:305
+msgid "Post Type"
+msgstr "Bericht Type"
+
+#: admin/class-page-visit-counter-admin.php:307
+msgid "Add Page/Post Type"
+msgstr "Pagina toevoegen / Post Type"
+
+#: admin/class-page-visit-counter-admin.php:316
+msgid "(Select post types for which post views will be counted.)"
+msgstr "( Selecteer types ambt waarvoor uitzicht post zal worden geteld . )"
+
+#: admin/class-page-visit-counter-admin.php:316
+msgid ""
+"Note: If you leave the blank then it will count for all the post/page "
+"registered in your theme."
+msgstr ""
+"Opmerking: Als u het leeg laat dan zal het tellen voor alle post / pagina in "
+"uw thema geregistreerd."
+
+#: admin/class-page-visit-counter-admin.php:320
+msgid "Exclude IPs (Ip Address)"
+msgstr "Uitsluiten IP ( IP-adres)"
+
+#: admin/class-page-visit-counter-admin.php:322
+msgid "Add IP Address in comma seprated"
+msgstr "Voeg IP-adres in komma seprated"
+
+#: admin/class-page-visit-counter-admin.php:330
+msgid "(Enter the IP addresses to be excluded from post views count.)"
+msgstr "(Voer de IP-adressen van standpunten post worden uitgesloten tellen. )"
+
+#: admin/class-page-visit-counter-admin.php:335
+msgid "Exclude Users"
+msgstr "uitsluiten Gebruikers"
+
+#: admin/class-page-visit-counter-admin.php:337
+msgid "Select Registerd Users"
+msgstr "Kies Ingeschreven Gebruikers"
+
+#: admin/class-page-visit-counter-admin.php:346
+msgid "(Select the users to be excluded from post views count.)"
+msgstr ""
+"( Selecteer de gebruikers te worden uitgesloten uit post uitzicht tellen. )"
+
+#: admin/class-page-visit-counter-admin.php:350
+msgid "Show front view counter"
+msgstr "Toon vooraanzicht teller"
+
+#: admin/class-page-visit-counter-admin.php:357
+msgid "Check the box if you want to display counter view on front end."
+msgstr "Vink het vakje aan als u wilt teller kijk op front-end weer te geven ."
+
+#: admin/class-page-visit-counter-admin.php:360
+msgid "Choose color for the front end view"
+msgstr "Kies een kleur voor de front end view"
+
+#: admin/class-page-visit-counter-admin.php:376
+msgid "Save"
+msgstr "Save"
+
+#: admin/class-page-visit-counter-admin.php:377
+msgid "Settings saved Sucessfully."
+msgstr "Instellingen opgeslagen met succes ."
+
+#: admin/class-page-visit-counter-admin.php:382
+msgid "Short Code"
+msgstr "Korte code"
+
+#: admin/class-page-visit-counter-admin.php:383
+msgid ""
+"There are two shortcodes that you can use to manually add page view count to "
+"any content on admin or post/page template created by your theme or plugin "
+"thats create it's own display content in page/post."
+msgstr ""
+"Er zijn twee shortcodes die u kunt gebruiken om pagina weergavetelling "
+"handmatig toevoegen aan elke content op admin of post / pagina sjabloon "
+"gemaakt door uw thema of plugin dat is het creëren van een eigen beeldscherm "
+"content pagina / post ."
+
+#: admin/class-page-visit-counter-admin.php:384
+msgid "Use this shortcode to add admin side content on page/post:"
+msgstr ""
+"Gebruik deze shortcode om admin zijde inhoud op pagina / post toe te voegen :"
+
+#: admin/class-page-visit-counter-admin.php:385
+msgid ""
+"Use this shortcode to add page/post template (.php) file of your own "
+"template:"
+msgstr ""
+"Met deze shortcode naar pagina / post template ( .php ) bestand van uw eigen "
+"sjabloon toe te voegen :"
+
+#: admin/class-page-visit-counter-admin.php:401
+msgid "Most Visited Page"
+msgstr "Meest Bezochte pagina"
+
+#: admin/class-page-visit-counter-admin.php:411
+msgid "Page id"
+msgstr "Id pagina"
+
+#: admin/class-page-visit-counter-admin.php:412
+msgid "Page Name"
+msgstr "pagina naam"
+
+#: admin/class-page-visit-counter-admin.php:735
+msgid "Total Visits"
+msgstr "Totaal Bezoeken"
+
+#: admin/class-page-visit-counter-admin.php:761
+msgid "Do you want to enable page visits count for this page?"
+msgstr "Heeft u wilt inschakelen pagina bezoekt tellen voor deze pagina ?"
+
+#: admin/class-page-visit-counter-admin.php:764
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/class-page-visit-counter-admin.php:770
+msgid "Total visits:"
+msgstr "Totaal aantal bezoeken :"
+
+#: admin/class-page-visit-counter-html-output.php:311
+msgid "Select a page&hellip;"
+msgstr "Selecteer een pagina & hellip ;"
+
+#: page_visit_counter.php:120 page_visit_counter.php:126
+#: public/class-page-visit-counter-public.php:558
+#: public/class-page-visit-counter-public.php:564
+msgid "total visits."
+msgstr "totale aantal bezoeken ."
+
+#: page_visit_counter.php:131 page_visit_counter.php:134
+msgid "Please enter the valid post or page id."
+msgstr "Vul de geldige post of pagina id ."

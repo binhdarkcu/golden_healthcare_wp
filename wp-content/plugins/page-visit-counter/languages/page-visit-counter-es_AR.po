@@ -1,0 +1,307 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: page visit counter\n"
+"POT-Creation-Date: 2016-04-05 11:05+0530\n"
+"PO-Revision-Date: 2016-04-05 11:08+0530\n"
+"Last-Translator: \n"
+"Language-Team: multidots\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-page-visit-counter-admin.php:117
+msgid "Clear"
+msgstr "Claro"
+
+#: admin/class-page-visit-counter-admin.php:117
+msgid "Default"
+msgstr "Defecto"
+
+#: admin/class-page-visit-counter-admin.php:117
+msgid "Select Color"
+msgstr "Select Color"
+
+#: admin/class-page-visit-counter-admin.php:143
+msgid "Page-Visit-Counter"
+msgstr "Visita la página - venta libre"
+
+#: admin/class-page-visit-counter-admin.php:143
+msgid "PageVisitCounter"
+msgstr "Visita el sitio de Contador"
+
+#: admin/class-page-visit-counter-admin.php:144
+msgid "Counter-Settings"
+msgstr "Counter- Ajustes"
+
+#: admin/class-page-visit-counter-admin.php:144
+msgid "Settings"
+msgstr "ajustes"
+
+#: admin/class-page-visit-counter-admin.php:154
+msgid "Page Visit Counter"
+msgstr "Visita SettinPage Countergs"
+
+#: admin/class-page-visit-counter-admin.php:158
+msgid "Top Browsers"
+msgstr "Más Navegadores"
+
+#: admin/class-page-visit-counter-admin.php:159
+msgid "Top 10 IP address"
+msgstr "Top 10 dirección IP"
+
+#: admin/class-page-visit-counter-admin.php:160
+msgid "Top referer"
+msgstr "Top árbitro"
+
+#: admin/class-page-visit-counter-admin.php:161
+msgid "Weekly report"
+msgstr "Reporte semanal"
+
+#: admin/class-page-visit-counter-admin.php:162
+msgid "Monthly report"
+msgstr "Reporte mensual"
+
+#: admin/class-page-visit-counter-admin.php:163
+msgid "Yearly Visit Report"
+msgstr "Informe anual Visita"
+
+#: admin/class-page-visit-counter-admin.php:198
+msgid "Search by page title"
+msgstr "Búsqueda por título de la página"
+
+#: admin/class-page-visit-counter-admin.php:198
+msgid "Search by page date"
+msgstr "Búsqueda por página fecha"
+
+#: admin/class-page-visit-counter-admin.php:198
+msgid "Search Page"
+msgstr "Página de búsqueda"
+
+#: admin/class-page-visit-counter-admin.php:205
+#: admin/class-page-visit-counter-admin.php:238
+#: admin/class-page-visit-counter-admin.php:509
+#: admin/class-page-visit-counter-admin.php:567
+#: admin/class-page-visit-counter-admin.php:599
+#: admin/class-page-visit-counter-admin.php:626
+#: admin/class-page-visit-counter-admin.php:638
+#: admin/class-page-visit-counter-admin.php:697
+#: admin/class-page-visit-counter-admin.php:765
+msgid "No"
+msgstr "No"
+
+#: admin/class-page-visit-counter-admin.php:206
+#: admin/class-page-visit-counter-admin.php:239
+#: admin/class-page-visit-counter-admin.php:510
+#: admin/class-page-visit-counter-admin.php:568
+#: admin/class-page-visit-counter-admin.php:600
+#: admin/class-page-visit-counter-admin.php:627
+#: admin/class-page-visit-counter-admin.php:639
+#: admin/class-page-visit-counter-admin.php:698
+msgid "Page ID"
+msgstr "ID de página"
+
+#: admin/class-page-visit-counter-admin.php:207
+#: admin/class-page-visit-counter-admin.php:240
+#: admin/class-page-visit-counter-admin.php:511
+#: admin/class-page-visit-counter-admin.php:569
+#: admin/class-page-visit-counter-admin.php:601
+#: admin/class-page-visit-counter-admin.php:628
+#: admin/class-page-visit-counter-admin.php:640
+#: admin/class-page-visit-counter-admin.php:699
+msgid "Page Title"
+msgstr "Título de la página"
+
+#: admin/class-page-visit-counter-admin.php:208
+#: admin/class-page-visit-counter-admin.php:241
+#: admin/class-page-visit-counter-admin.php:413
+#: admin/class-page-visit-counter-admin.php:512
+#: admin/class-page-visit-counter-admin.php:570
+#: admin/class-page-visit-counter-admin.php:602
+#: admin/class-page-visit-counter-admin.php:629
+#: admin/class-page-visit-counter-admin.php:641
+#: admin/class-page-visit-counter-admin.php:700
+msgid "Total Count"
+msgstr "Cuenta total"
+
+#: admin/class-page-visit-counter-admin.php:209
+#: admin/class-page-visit-counter-admin.php:242
+#: admin/class-page-visit-counter-admin.php:513
+#: admin/class-page-visit-counter-admin.php:571
+#: admin/class-page-visit-counter-admin.php:603
+#: admin/class-page-visit-counter-admin.php:630
+#: admin/class-page-visit-counter-admin.php:642
+#: admin/class-page-visit-counter-admin.php:701
+msgid "Share"
+msgstr "Compartir"
+
+#: admin/class-page-visit-counter-admin.php:210
+#: admin/class-page-visit-counter-admin.php:243
+#: admin/class-page-visit-counter-admin.php:514
+#: admin/class-page-visit-counter-admin.php:572
+#: admin/class-page-visit-counter-admin.php:604
+#: admin/class-page-visit-counter-admin.php:631
+#: admin/class-page-visit-counter-admin.php:643
+#: admin/class-page-visit-counter-admin.php:702
+msgid "Report"
+msgstr "Informe"
+
+#: admin/class-page-visit-counter-admin.php:232
+#: admin/class-page-visit-counter-admin.php:561
+#: admin/class-page-visit-counter-admin.php:621
+#: admin/class-page-visit-counter-admin.php:691
+msgid "View Report"
+msgstr "Vista del informe"
+
+#: admin/class-page-visit-counter-admin.php:297
+msgid "Page Counter Settings"
+msgstr "Configuración del contador de páginas"
+
+#: admin/class-page-visit-counter-admin.php:305
+msgid "Post Type"
+msgstr "Tipo de mensaje"
+
+#: admin/class-page-visit-counter-admin.php:307
+msgid "Add Page/Post Type"
+msgstr "Añadir Tipo Página / Post"
+
+#: admin/class-page-visit-counter-admin.php:316
+msgid "(Select post types for which post views will be counted.)"
+msgstr ""
+"( Seleccionar tipos de envíos para los que se contarán Vistas de la "
+"publicación . )"
+
+#: admin/class-page-visit-counter-admin.php:316
+msgid ""
+"Note: If you leave the blank then it will count for all the post/page "
+"registered in your theme."
+msgstr ""
+"Nota : Si deja el espacio en blanco a continuación, se contará para todos "
+"los post / página registrada en el tema ."
+
+#: admin/class-page-visit-counter-admin.php:320
+msgid "Exclude IPs (Ip Address)"
+msgstr ""
+"Excluir direcciones IP ( IP Address ) Excluir direcciones IP ( dirección IP)"
+
+#: admin/class-page-visit-counter-admin.php:322
+msgid "Add IP Address in comma seprated"
+msgstr "Añadir la dirección IP en coma seprated"
+
+#: admin/class-page-visit-counter-admin.php:330
+msgid "(Enter the IP addresses to be excluded from post views count.)"
+msgstr ""
+"( Introduzca las direcciones IP para ser excluido de vistas Número de "
+"mensajes )."
+
+#: admin/class-page-visit-counter-admin.php:335
+msgid "Exclude Users"
+msgstr "excluir a los usuarios"
+
+#: admin/class-page-visit-counter-admin.php:337
+msgid "Select Registerd Users"
+msgstr "Seleccionar usuarios Registerd"
+
+#: admin/class-page-visit-counter-admin.php:346
+msgid "(Select the users to be excluded from post views count.)"
+msgstr ""
+"( Seleccione los usuarios que deben excluirse del recuento de entradas "
+"vistas . )"
+
+#: admin/class-page-visit-counter-admin.php:350
+msgid "Show front view counter"
+msgstr "Mostrar vista frontal contador"
+
+#: admin/class-page-visit-counter-admin.php:357
+msgid "Check the box if you want to display counter view on front end."
+msgstr ""
+"Marque la casilla si desea mostrar vista contador en extremo delantero ."
+
+#: admin/class-page-visit-counter-admin.php:360
+msgid "Choose color for the front end view"
+msgstr "Elegir el color para la vista frontal"
+
+#: admin/class-page-visit-counter-admin.php:376
+msgid "Save"
+msgstr "Salvar"
+
+#: admin/class-page-visit-counter-admin.php:377
+msgid "Settings saved Sucessfully."
+msgstr "La configuración se guardó con éxito ."
+
+#: admin/class-page-visit-counter-admin.php:382
+msgid "Short Code"
+msgstr "Código corto"
+
+#: admin/class-page-visit-counter-admin.php:383
+msgid ""
+"There are two shortcodes that you can use to manually add page view count to "
+"any content on admin or post/page template created by your theme or plugin "
+"thats create it's own display content in page/post."
+msgstr ""
+"Hay dos códigos cortos que se pueden utilizar para añadir manualmente la "
+"página Contador de visitas a cualquier contenido en la administración o "
+"plantilla de entrada / página creada por su tema o plugin de eso es crear su "
+"propio contenido de la pantalla en la página / post ."
+
+#: admin/class-page-visit-counter-admin.php:384
+msgid "Use this shortcode to add admin side content on page/post:"
+msgstr ""
+"Utilizar este código corto para agregar contenido parte de administración en "
+"la página / post :"
+
+#: admin/class-page-visit-counter-admin.php:385
+msgid ""
+"Use this shortcode to add page/post template (.php) file of your own "
+"template:"
+msgstr ""
+"Utilizar este código corto para agregar página de la plantilla / post ( ."
+"php ) del archivo de su propia plantilla :"
+
+#: admin/class-page-visit-counter-admin.php:401
+msgid "Most Visited Page"
+msgstr "La mayoría Página visitada"
+
+#: admin/class-page-visit-counter-admin.php:411
+msgid "Page id"
+msgstr "Page id"
+
+#: admin/class-page-visit-counter-admin.php:412
+msgid "Page Name"
+msgstr "Nombre de la página"
+
+#: admin/class-page-visit-counter-admin.php:735
+msgid "Total Visits"
+msgstr "Total Visitas"
+
+#: admin/class-page-visit-counter-admin.php:761
+msgid "Do you want to enable page visits count for this page?"
+msgstr "¿Quieres permitir que cuentan visitas a la página de esta página?"
+
+#: admin/class-page-visit-counter-admin.php:764
+msgid "Yes"
+msgstr "Sí"
+
+#: admin/class-page-visit-counter-admin.php:770
+msgid "Total visits:"
+msgstr "Visitas totales:"
+
+#: admin/class-page-visit-counter-html-output.php:311
+msgid "Select a page&hellip;"
+msgstr "Seleccione una página y hellip ;"
+
+#: page_visit_counter.php:120 page_visit_counter.php:126
+#: public/class-page-visit-counter-public.php:558
+#: public/class-page-visit-counter-public.php:564
+msgid "total visits."
+msgstr "visitas totales."
+
+#: page_visit_counter.php:131 page_visit_counter.php:134
+msgid "Please enter the valid post or page id."
+msgstr ""
+"Por favor, introduzca el mensaje o la página de identificación válida ."

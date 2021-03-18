@@ -1,0 +1,74 @@
+/* different techniques for iPhone screening */
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation:portrait) {
+	/* For portrait layouts only */
+	.mobile-banner-slide div{
+		font-size: 13px;
+	}
+	.block-ellipsis-home-news-1line{
+		height: 17px !important;
+	}
+	/*title rss syt*/
+	h3.column-title{
+		font-size: 12pt;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation:landscape) {
+	/* For landscape layouts only */
+	.entry-thumbnail img{
+		width: 100% !important;
+		height: 260px !important;
+	}
+}
+
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+	/* For portrait layouts only */
+	.banner-slide-overwrite{
+		display: none;
+	}
+	
+	/*Menu*/
+	.navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+	/*title rss syt*/
+	h3.column-title{
+		font-size: 15pt;
+	}
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+	/* For landscape layouts only */
+}
