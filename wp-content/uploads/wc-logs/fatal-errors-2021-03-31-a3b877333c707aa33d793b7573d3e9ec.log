@@ -1,0 +1,4 @@
+2021-03-31T03:06:46+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in D:\Projects\goldenhealthcare\wp-content\themes\healthcare\woocommerce\single-product\tabs\tabs.php on line 31
+
+2021-03-31T06:41:04+00:00 CRITICAL syntax error, unexpected ':', expecting ']' in D:\Projects\goldenhealthcare\wp-content\themes\healthcare\woocommerce\checkout\form-billing.php on line 37
+

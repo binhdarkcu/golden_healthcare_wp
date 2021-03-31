@@ -77,6 +77,12 @@ body#home #services-slider .content p{
 body#home #services-slider .owl-carousel {
     overflow: inherit;
 }
+.woocommerce table.shop_table td {
+    border-top: 1px solid rgba(0,0,0,.1)!important;
+}
+.cart-subtotal span, .order-total span, .product-subtotal span {
+    display: inline-block!important;
+}
 
 .cd-faq-trigger {
     position: relative;
@@ -833,6 +839,10 @@ body.single-dwqa-question #dwqa-respond {
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     background: #f7931d;
+}
+
+body table.shop_table td {
+    border: 1px solid rgba(0,0,0,.1)!important;
 }
 body table:not(.table-condensed) td {
     height: 36px !important;

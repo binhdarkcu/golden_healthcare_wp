@@ -33,7 +33,7 @@ define('DB_NAME', 'golden_healthcare');
 define('DB_USER', 'root');
 
 /** Mật khẩu của database */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', '');
 
 /** Hostname của database */
 define('DB_HOST', 'localhost');
@@ -84,9 +84,9 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
- ini_set('display_errors','Off');
+ ini_set('display_errors','');
  ini_set('error_reporting', E_ALL );
- define('WP_DEBUG', false);
+ define('WP_DEBUG', true);
  define('WP_DEBUG_DISPLAY', false);
 
 /* Đó là tất cả thiết lập, ngưng sửa từ phần này trở xuống. Chúc bạn viết blog vui vẻ. */

@@ -7,6 +7,9 @@
         }
     }
 
+    remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 10 );
+
+
     add_action('init', 'register_my_session');
     require_once('inc/api.php'); //Customize functions of plugins Dw-question
     require_once('inc/handle_create_acf.php');
@@ -57,7 +60,7 @@
      * Grab latest post title by an author!
      *
      * @param array $data Options for the function.
-     * @return string|null Post title for the latest,  * or null if none.
+     * @return string|null Post title for the latest, * or null if none.
      */
     function my_get_categories( ) {
       $categories = get_categories(array(

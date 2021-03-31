@@ -1,0 +1,265 @@
+2021-03-22T04:48:36+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\Projects\goldenhealthcare\wp-includes\Requests\Transport\cURL.php on line 463
+
+2021-03-22T06:56:14+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T06:56:19+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T06:56:44+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T06:56:53+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T06:56:55+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T06:57:12+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T06:57:21+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-blog-header.php(13): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\index.php(17): require('D:\\Projects\\gol...')
+#9 {main}
+  th in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T06:57:27+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-blog-header.php(13): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\index.php(17): require('D:\\Projects\\gol...')
+#9 {main}
+  th in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T07:08:24+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-blog-header.php(13): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\index.php(17): require('D:\\Projects\\gol...')
+#9 {main}
+  th in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T07:08:39+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T07:08:54+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T07:09:18+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T07:10:25+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T07:10:28+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T07:10:57+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T07:10:59+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T07:11:06+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T07:11:08+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T07:11:16+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
+2021-03-22T07:11:30+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php:611
+Stack trace:
+#0 D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php(579): WooCommerce->load_plugin_textdomain()
+#1 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 D:\Projects\goldenhealthcare\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Projects\goldenhealthcare\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\Projects\goldenhealthcare\wp-settings.php(450): do_action('init')
+#5 D:\Projects\goldenhealthcare\wp-config.php(99): require_once('D:\\Projects\\gol...')
+#6 D:\Projects\goldenhealthcare\wp-load.php(37): require_once('D:\\Projects\\gol...')
+#7 D:\Projects\goldenhealthcare\wp-admin\admin.php(31): require_once('D:\\Projects\\gol...')
+#8 D:\Projects\goldenhealthcare\wp-admin\index.php(10): require_once('D:\\Projects\\gol...')
+ in D:\Projects\goldenhealthcare\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 611
+
