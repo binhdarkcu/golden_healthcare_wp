@@ -80,7 +80,7 @@ body#home #services-slider .owl-carousel {
 .woocommerce table.shop_table td {
     border-top: 1px solid rgba(0,0,0,.1)!important;
 }
-.cart-subtotal span, .order-total span, .product-subtotal span {
+.cart-subtotal span, .order-total span, .product-total span, .product-subtotal span {
     display: inline-block!important;
 }
 

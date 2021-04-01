@@ -28,7 +28,7 @@ defined( 'ABSPATH' ) || exit;
 
 		<tr class="cart-subtotal">
 			<th><?php esc_html_e( 'Giá tiền', 'woocommerce' ); ?></th>
-			<td data-title="<?php esc_attr_e( 'Subtotal', 'woocommerce' ); ?>"><?php wc_cart_totals_subtotal_html(); ?></td>
+			<td data-title="<?php esc_attr_e( 'Tổng tiền', 'woocommerce' ); ?>"><?php wc_cart_totals_subtotal_html(); ?></td>
 		</tr>
 
 		<?php foreach ( WC()->cart->get_coupons() as $code => $coupon ) : ?>

@@ -28,7 +28,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 				<th class="product-remove">&nbsp;</th>
 				<th class="product-name"><?php esc_html_e( 'Tên gói khám', 'woocommerce' ); ?></th>
 				<th class="product-quantity"><?php esc_html_e( 'Số lượng', 'woocommerce' ); ?></th>
-				<th class="product-subtotal"><?php esc_html_e( 'Subtotal', 'woocommerce' ); ?></th>
+				<th class="product-subtotal"><?php esc_html_e( 'Tổng tiền', 'woocommerce' ); ?></th>
 			</tr>
 		</thead>
 		<tbody>
