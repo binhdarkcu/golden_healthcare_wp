@@ -277,7 +277,7 @@ class WC_Shortcode_My_Account {
 
 		if ( empty( $login ) ) {
 
-			wc_add_notice( __( 'Enter a username or email address.', 'woocommerce' ), 'error' );
+			wc_add_notice( __( 'Nhập tên người dùng hoặc địa chỉ email.', 'woocommerce' ), 'error' );
 
 			return false;
 
@@ -302,13 +302,13 @@ class WC_Shortcode_My_Account {
 		}
 
 		if ( ! $user_data ) {
-			wc_add_notice( __( 'Invalid username or email.', 'woocommerce' ), 'error' );
+			wc_add_notice( __( 'Tên người dùng hoặc email không hợp lệ.', 'woocommerce' ), 'error' );
 
 			return false;
 		}
 
 		if ( is_multisite() && ! is_user_member_of_blog( $user_data->ID, get_current_blog_id() ) ) {
-			wc_add_notice( __( 'Invalid username or email.', 'woocommerce' ), 'error' );
+			wc_add_notice( __( 'Tên người dùng hoặc email không hợp lệ.', 'woocommerce' ), 'error' );
 
 			return false;
 		}
@@ -322,7 +322,7 @@ class WC_Shortcode_My_Account {
 
 		if ( ! $allow ) {
 
-			wc_add_notice( __( 'Password reset is not allowed for this user', 'woocommerce' ), 'error' );
+			wc_add_notice( __( 'Không cho phép đặt lại mật khẩu cho người dùng này.', 'woocommerce' ), 'error' );
 
 			return false;
 
@@ -357,7 +357,7 @@ class WC_Shortcode_My_Account {
 		$user = check_password_reset_key( $key, $login );
 
 		if ( is_wp_error( $user ) ) {
-			wc_add_notice( __( 'This key is invalid or has already been used. Please reset your password again if needed.', 'woocommerce' ), 'error' );
+			wc_add_notice( __( 'Khóa này không hợp lệ hoặc đã được sử dụng. Vui lòng đặt lại mật khẩu của bạn một lần nữa nếu cần.', 'woocommerce' ), 'error' );
 			return false;
 		}
 

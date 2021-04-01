@@ -303,7 +303,12 @@
                                         </div>
                                     </div>
                                 </form>
+                                
+                                <div style="float: right; margin-top: 15px; margin-right: -10px">
+                                    <?php echo do_shortcode('[lsphe-header]' ); ?>
+                                </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
