@@ -74,6 +74,10 @@ body#home #services-slider .content p{
     -webkit-line-clamp: 2;
     max-height: 52px;
 }
+
+.woocommerce table.shop_table td span {
+    display: inline-block!important;
+}
 body#home #services-slider .owl-carousel {
     overflow: inherit;
 }
