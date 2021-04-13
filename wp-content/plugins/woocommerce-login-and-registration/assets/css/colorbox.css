@@ -89,7 +89,7 @@
 		  
 		 #login1 {float: right;} 
 		
-		#reg_email_header{border: 1px solid #dcdcdc;   padding: 12px 8px;}
+		#reg_email_header, input[type="text"]{border: 1px solid #dcdcdc;   padding: 12px 8px;}
 		
 		#header_login {
                       margin-right: 5px;

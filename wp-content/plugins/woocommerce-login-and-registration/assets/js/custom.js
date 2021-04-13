@@ -74,6 +74,9 @@ jQuery(document).ready(function(){
 				
 				var u_email = jQuery(this).closest('#js_signup').find('input[name="email"]').val();
 				var u_passd = jQuery(this).closest('#js_signup').find('input[name="password"]').val();
+				var u_role = jQuery(this).closest('#js_signup').find('input[name="user_role"]:checked').val();
+				var u_firstname = jQuery(this).closest('#js_signup').find('input[name="first_name"]').val();
+				var u_lastname = jQuery(this).closest('#js_signup').find('input[name="last_name"]').val();
 				var wp_http_referer = jQuery(this).closest('#js_signup').find('input[name="_wp_http_referer"]').val();
 				var wpnonce = jQuery(this).closest('#js_signup').find('input[name="_wpnonce_phoe_register_pop_form"]').val();
 				
@@ -87,11 +90,13 @@ jQuery(document).ready(function(){
 							action : 'val_header_signup',
 							email : u_email,
 							password : u_passd,
+							role: u_role,
+							first_name: u_firstname,
+							last_name: u_lastname,
 							wpnonce : wpnonce
 							}, 
 					success: function(data,status) {
-					
-						if(data == '1'){
+						if(status == 'success'){
 							
 							jQuery(".loader_reg").hide();
 							window.location.href = wp_http_referer;
@@ -99,7 +104,7 @@ jQuery(document).ready(function(){
 
 						}else{ 
 						   jQuery(".loader_reg").hide();
-						   jQuery(".result2").html(data);
+						   jQuery(".result2").html('Đăng ký thành công');
 						   
 						} 
 						

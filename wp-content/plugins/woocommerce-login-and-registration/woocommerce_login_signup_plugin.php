@@ -556,7 +556,13 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 			$reg_email = isset($_POST['email'])?sanitize_text_field( $_POST['email'] ):'';
 		    
 			$reg_password =  isset($_POST['password'])?sanitize_text_field( $_POST['password'] ):'';
-		    
+
+		    $reg_userrole = isset($_POST['user_role'])?sanitize_text_field( $_POST['user_role'] ):'';
+
+			$reg_firstname =  isset($_POST['first_name'])?sanitize_text_field( $_POST['first_name'] ):'';
+
+			$reg_lastname = isset($_POST['last_name'])?sanitize_text_field( $_POST['last_name'] ):'';
+
 			$arr_name = explode("@",$reg_email);  $temp = $arr_name[0];
 		    
 			$user = get_user_by( 'email',$reg_email );
@@ -612,18 +618,24 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 								$password_generated = false;
 							}
 								
-						$userdata=array("role"=>"customer",
+						$userdata=array(
 						
 									"user_email"=>$reg_email,
 									
 									"user_login"=>$temp,
 									
-									"user_pass"=>$reg_password);
+									"user_pass"=>$reg_password,
+
+									'first_name' => $reg_firstname,
+
+									'last_name' => $reg_lastname
+						);
 						
 						if($user_id = wp_insert_user( $userdata ))
 						{
-							
-							echo "1";
+							wp_update_user(array('ID' => $user_id, "role"=> $reg_userrole));
+
+							echo 'success';
 							
 							do_action('woocommerce_created_customer', $user_id, $userdata, $password_generated);
 							
@@ -763,7 +775,20 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 								<?php $nonce_register_pop = wp_create_nonce( 'phoe_register_pop_form' ); ?>
 									
 									<input type="hidden" value="<?php echo $nonce_register_pop; ?>" name="_wpnonce_phoe_register_pop_form" id="wpnonce_phoe_register_pop_form" />
-												
+										
+								<p class="form-row form-row-wide">
+									<label for="reg_email">Loại khách hàng:</label>
+									<label id="business"><input type="radio" name="user_role" id="business" checked value="business_role"/><span style="margin-left: 5px;">Doanh nghiệp</span></label>
+									<label id="personal"><input type="radio" name="user_role" id="personal" value="customer"/><span style="margin-left: 5px;">Cá nhân</span></label>
+								</p>	
+								<p class="form-row form-row-wide">
+									<label for="reg_firstname">Họ <span class="required">*</span></label>
+									<input type="text" class="input-text" name="first_name" id="reg_firstname" value="" >
+								</p>
+								<p class="form-row form-row-wide">
+									<label for="reg_lastname">Tên <span class="required">*</span></label>
+									<input type="text" class="input-text" name="last_name" id="reg_lastname" value="" >
+								</p>				
 								<p class="form-row form-row-wide">
 									<label for="reg_email">Email address <span class="required">*</span></label>
 									<input type="email" class="input-text" name="email" id="reg_email_header" value="" >
@@ -775,7 +800,7 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 								<!-- Spam Trap -->
 								<div style="left: -999em; position: absolute;"><label for="trap">Anti-spam</label><input type="text" name="email_2" id="trap" tabindex="-1"></div>						
 								<p class="form-row">
-									<input type="hidden" id="_wpnonce" name="_wpnonce" value="70c2c9e9dd"><input id="wp_http_referer" type="hidden" name="_wp_http_referer" value="<?php echo get_site_url(); ?>/my-account/">				
+									<input type="hidden" id="_wpnonce" name="_wpnonce" value="70c2c9e9dd"><input id="wp_http_referer" type="hidden" name="_wp_http_referer" value="<?php echo get_site_url(); ?>">				
 									<div class="loader_reg" style="display:none;" ><img src="<?php echo PLUGINlSPDIRURL."/assets/img/ajax-loader.gif" ?>"/></div>				
 									<input type="submit" class="button phoen_reg" name="register_header" value="Đăng ký">
 								</p>
