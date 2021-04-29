@@ -412,7 +412,7 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 				
 				echo '<ul class="woocommerce-error">
 						
-						<li><strong>Error:</strong> Username is required.</li>
+						<li><strong>Error:</strong> Tên đăng nhập không được rỗng.</li>
 					  
 					  </ul>';
 					  
@@ -422,7 +422,7 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 				
 				echo '<ul class="woocommerce-error">
 						
-						<li><strong>Error:</strong> Password is required.</li>
+						<li><strong>Error:</strong> Mật khẩu không được rỗng</li>
 					  
 					  </ul>';
 					  
@@ -457,9 +457,9 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 								
 								echo '<ul class="woocommerce-error">
 									
-										<li><strong>ERROR</strong>: The password you entered for the username <strong>'.$user->user_login.'</strong> is incorrect. 
+										<li><strong>ERROR</strong>: Mật khẩu bạn đã nhập cho tên người dùng <strong>'.$user->user_login.'</strong> không chính xác. 
 									  
-										 <a href="'.get_site_url().'/my-account/lost-password/">Lost your password?</a></li>
+										 <a href="'.get_site_url().'/my-account/lost-password/">Quên mật khẩu?</a></li>
 									 
 									</ul>';
 							
@@ -471,7 +471,7 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 							
 							echo '<ul class="woocommerce-error">
 							
-										<li><strong>Error:</strong> A user could not be found with this email address.</li>
+										<li><strong>Error:</strong> Không thể tìm thấy người dùng có địa chỉ email này.</li>
 								  
 								 </ul>';
 								 
@@ -528,7 +528,7 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 			
 			echo '<ul class="woocommerce-error">
                      
-					 <li><strong>Error:</strong> A user already loged in, Logout First.</li>
+					 <li><strong>Error:</strong> Người dùng đã đăng nhập, Đăng xuất trước.</li>
                   
 				 </ul>';
 				 
@@ -557,7 +557,7 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 		    
 			$reg_password =  isset($_POST['password'])?sanitize_text_field( $_POST['password'] ):'';
 
-		    $reg_userrole = isset($_POST['user_role'])?sanitize_text_field( $_POST['user_role'] ):'';
+		    $reg_userrole = isset($_POST['role'])?sanitize_text_field( $_POST['role'] ):'';
 
 			$reg_firstname =  isset($_POST['first_name'])?sanitize_text_field( $_POST['first_name'] ):'';
 
@@ -572,7 +572,7 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 				
 				echo '<ul class="woocommerce-error">
 						
-						<li><strong>Error:</strong> Please provide a valid email address.</li>
+						<li><strong>Error:</strong> Vui lòng cung cấp một địa chỉ email hợp lệ.</li>
 					  
 					</ul>';
 					
@@ -583,7 +583,7 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 				
 				echo '<ul class="woocommerce-error">
 			    
-						<li><strong>Error:</strong> Please enter an account password.</li>
+						<li><strong>Error:</strong> Vui lòng nhập mật khẩu tài khoản.</li>
 				      
 					 </ul>';
 					 
@@ -599,7 +599,7 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 						
 						echo'<ul class="woocommerce-error">
 								
-								<li><strong>Error:</strong> An account is already registered with your email address. Please login.</li>
+								<li><strong>Error:</strong> Một tài khoản đã được đăng ký với địa chỉ email của bạn. Xin vui lòng đăng nhập.</li>
 							 
 							</ul>';
 					
@@ -612,14 +612,14 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 									$password_generated = true;
 
 								} elseif ( empty( $reg_password ) ) {
-									return new WP_Error( 'registration-error-missing-password', __( 'Please enter an account password.', 'woocommerce' ) );
+									return new WP_Error( 'registration-error-missing-password', __( 'Vui lòng nhập mật khẩu tài khoản.', 'woocommerce' ) );
 
 								} else {
 								$password_generated = false;
 							}
 								
 						$userdata=array(
-						
+									"role" => $reg_userrole,
 									"user_email"=>$reg_email,
 									
 									"user_login"=>$temp,
@@ -633,7 +633,7 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 						
 						if($user_id = wp_insert_user( $userdata ))
 						{
-							wp_update_user(array('ID' => $user_id, "role"=> $reg_userrole));
+							//wp_update_user(array('ID' => $user_id, "role"=> $reg_userrole));
 
 							echo 'success';
 							
@@ -776,27 +776,28 @@ define('PLUGINlSPDIRURL',plugin_dir_url( __FILE__ ));
 									
 									<input type="hidden" value="<?php echo $nonce_register_pop; ?>" name="_wpnonce_phoe_register_pop_form" id="wpnonce_phoe_register_pop_form" />
 										
+								
 								<p class="form-row form-row-wide">
-									<label for="reg_email">Loại khách hàng:</label>
-									<label id="business"><input type="radio" name="user_role" id="business" checked value="business_role"/><span style="margin-left: 5px;">Doanh nghiệp</span></label>
-									<label id="personal"><input type="radio" name="user_role" id="personal" value="customer"/><span style="margin-left: 5px;">Cá nhân</span></label>
-								</p>	
-								<p class="form-row form-row-wide">
-									<label for="reg_firstname">Họ <span class="required">*</span></label>
+									<label for="reg_firstname">Họ </label>
 									<input type="text" class="input-text" name="first_name" id="reg_firstname" value="" >
 								</p>
 								<p class="form-row form-row-wide">
-									<label for="reg_lastname">Tên <span class="required">*</span></label>
+									<label for="reg_lastname">Tên </label>
 									<input type="text" class="input-text" name="last_name" id="reg_lastname" value="" >
 								</p>				
 								<p class="form-row form-row-wide">
 									<label for="reg_email">Email address <span class="required">*</span></label>
 									<input type="email" class="input-text" name="email" id="reg_email_header" value="" >
 								</p>			
-									<p class="form-row form-row-wide">
-										<label for="reg_password">Mật khẩu <span class="required">*</span></label>
-										<input type="password" class="input-text" name="password" id="reg_password_header" >
-									</p>			
+								<p class="form-row form-row-wide">
+									<label for="reg_password">Mật khẩu <span class="required">*</span></label>
+									<input type="password" class="input-text" name="password" id="reg_password_header" >
+								</p>		
+								<p class="form-row form-row-wide">
+									<label for="reg_email">Loại khách hàng:</label>
+									<label id="business"><input type="radio" name="user_role" id="business" checked value="business_role"/><span style="margin-left: 5px;">Doanh nghiệp</span></label>
+									<label id="personal"><input type="radio" name="user_role" id="personal" value="customer"/><span style="margin-left: 5px;">Cá nhân</span></label>
+								</p>		
 								<!-- Spam Trap -->
 								<div style="left: -999em; position: absolute;"><label for="trap">Anti-spam</label><input type="text" name="email_2" id="trap" tabindex="-1"></div>						
 								<p class="form-row">

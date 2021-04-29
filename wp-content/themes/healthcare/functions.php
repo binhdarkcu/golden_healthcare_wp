@@ -15,8 +15,6 @@
     require_once('inc/handle_create_acf.php');
     add_theme_support('post-thumbnails');
 
-    update_field( 'display_app_yes_or_no', 1, 1853 );
-
     //register menu
     function register_menu() {
         register_nav_menus(array(
@@ -26,6 +24,26 @@
             'specialist' => 'Chuyên khoa',
             'link' => 'Liên kết'
         ));
+    }
+
+
+    // $product_id = $_GET['add-to-cart'];
+    // if(!empty($product_id)) {
+    //     $product_cart_id = WC()->cart->generate_cart_id( $product_id );
+    
+    //     if( ! WC()->cart->find_product_in_cart( $product_cart_id ) ){
+        
+    //         // Yep, the product with ID 55 is NOT in the cart, let's add it then!
+    //         WC()->cart->add_to_cart( $product_id );
+        
+    //     }
+        
+    // }
+    
+    add_action('wp_enqueue_scripts', 'custom_select_dropdown');
+    function custom_select_dropdown() {
+        wp_enqueue_style( 'select2');
+        wp_enqueue_script( 'selectinit', get_stylesheet_directory_uri() . '/js/select2-init.js', array( 'selectWoo' ), true );      
     }
 
     add_action('init', 'register_menu');
@@ -721,7 +739,7 @@
             endif;
         endwhile;
     }
-    add_action('admin_init', 'check_company_list');
+    //add_action('admin_init', 'check_company_list');
 
     //check totals number of company
     function checkTotalnumber() {

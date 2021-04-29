@@ -75,6 +75,9 @@ body#home #services-slider .content p{
     max-height: 52px;
 }
 
+.woocommerce-page .products a.woocommerce-LoopProduct-link img{
+    display: none!important;
+}
 .woocommerce table.shop_table td span {
     display: inline-block!important;
 }

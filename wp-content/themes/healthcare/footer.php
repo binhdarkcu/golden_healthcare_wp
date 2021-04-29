@@ -254,6 +254,14 @@
             $("#btnSearch").click();
         }
     });
+
+    function addToCart(p_id) {
+        console.log(<?php echo home_url()?>'?add-to-cart=' + p_id)
+        $.get(<?php echo home_url()?>'?add-to-cart=' + p_id, function() {
+            // call back
+            
+        });
+    }
 </script>
 
 <div id="eJOY__extension_root" style="all: unset;"></div></body></html>

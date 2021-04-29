@@ -46,7 +46,7 @@ $product_id =  $product->get_id();
 								echo '<a href="' . get_the_permalink( $product->get_id() ) . '">';
 								echo '<img src="'.esc_url( $variation_image_src ).'" class="variation-image">';
 								echo '</a>';
-								if ( ! empty( $variation['price_html'] ) )echo '<span class="variation-price-html">'.$variation['price_html'].'</span>';
+								if ( ! empty( $variation['price_html'] ) )echo '<span class="variation-price-html bbbb">'.$variation['price_html'].'</span>';
 
 								if ( ! empty( $variation['attributes'] ) && is_array( $variation['attributes'] ) ) {
 									echo '<div class="variation-data">';

@@ -87,7 +87,7 @@ $table_prefix  = 'wp_';
  ini_set('display_errors','');
  ini_set('error_reporting', E_ALL );
  define('WP_DEBUG', true);
- define('WP_DEBUG_DISPLAY', false);
+ define('WP_DEBUG_DISPLAY', true);
 
 /* Đó là tất cả thiết lập, ngưng sửa từ phần này trở xuống. Chúc bạn viết blog vui vẻ. */
 
