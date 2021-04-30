@@ -30,20 +30,20 @@
     // $product_id = $_GET['add-to-cart'];
     // if(!empty($product_id)) {
     //     $product_cart_id = WC()->cart->generate_cart_id( $product_id );
-    
+
     //     if( ! WC()->cart->find_product_in_cart( $product_cart_id ) ){
-        
+
     //         // Yep, the product with ID 55 is NOT in the cart, let's add it then!
     //         WC()->cart->add_to_cart( $product_id );
-        
+
     //     }
-        
+
     // }
-    
+
     add_action('wp_enqueue_scripts', 'custom_select_dropdown');
     function custom_select_dropdown() {
         wp_enqueue_style( 'select2');
-        wp_enqueue_script( 'selectinit', get_stylesheet_directory_uri() . '/js/select2-init.js', array( 'selectWoo' ), true );      
+        wp_enqueue_script( 'selectinit', get_stylesheet_directory_uri() . '/js/select2-init.js', array( 'selectWoo' ), true );
     }
 
     add_action('init', 'register_menu');
@@ -468,7 +468,11 @@
             return ( int ) $views;
         }
     }
-
+    // add_filter( 'woocommerce_add_to_cart_redirect', 'bbloomer_redirect_checkout_add_cart' );
+    //
+    // function bbloomer_redirect_checkout_add_cart() {
+    //    return wc_get_checkout_url();
+    // }
     /* The AJAX handler function */
     function localize_my_scripts() {
         wp_enqueue_style( 'slick', get_template_directory_uri(). '/assets/slick.css', array(), '0.1.0', 'all');

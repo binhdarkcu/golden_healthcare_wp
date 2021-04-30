@@ -66,7 +66,7 @@ body#home #services-slider .content h2 {
     margin-bottom: 0;
 }
 body#home #services-slider .content p{
-    margin-bottom: 0;    
+    margin-bottom: 0;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -74,7 +74,34 @@ body#home #services-slider .content p{
     -webkit-line-clamp: 2;
     max-height: 52px;
 }
-
+.woocommerce div.product form.cart .variations td, .woocommerce div.product form.cart .variations th{
+    border: none!important;
+}
+.woocommerce div.product form.cart .variations label{
+    color: #000;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 18px;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce div.product form.cart .button,
+.woocommerce #respond input#submit.alt.disabled, .woocommerce #respond input#submit.alt.disabled:hover, .woocommerce #respond input#submit.alt:disabled, .woocommerce #respond input#submit.alt:disabled:hover, .woocommerce #respond input#submit.alt:disabled[disabled], .woocommerce #respond input#submit.alt:disabled[disabled]:hover, .woocommerce a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled:hover, .woocommerce a.button.alt:disabled[disabled], .woocommerce a.button.alt:disabled[disabled]:hover, .woocommerce button.button.alt.disabled, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled:hover, .woocommerce button.button.alt:disabled[disabled], .woocommerce button.button.alt:disabled[disabled]:hover, .woocommerce input.button.alt.disabled, .woocommerce input.button.alt.disabled:hover, .woocommerce input.button.alt:disabled, .woocommerce input.button.alt:disabled:hover, .woocommerce input.button.alt:disabled[disabled], .woocommerce input.button.alt:disabled[disabled]:hover {
+    background: #f7931d;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+    color: #f7931d!important;
+    font-weight: 700;
+}
+.woocommerce div.product form.cart div.quantity {
+    display: none!important;
+}
+.woocommerce-variation-price {
+    margin-bottom: 15px;
+}
+.woocommerce div.product form.cart .variations select{
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
 .woocommerce-page .products a.woocommerce-LoopProduct-link img{
     display: none!important;
 }
@@ -958,7 +985,7 @@ body table:not(.table-condensed) td span {
 }
 .box_BMI {
     padding: 10px;
-    border: dashed 1px gray; 
+    border: dashed 1px gray;
 }
 .color_main {
     color: #f7931d;
@@ -1034,9 +1061,9 @@ body table:not(.table-condensed) td span {
     margin: 10px 0 0 !important;
 }
 .slide-cnkh .owl-wrapper-outer .slide-cnkh-bg {
-    width: 100%; 
+    width: 100%;
     float: left;
-    height: 307px; 
+    height: 307px;
     overflow: hidden;
 }
 @media (max-height: 625px) and (min-width: 767px) {
@@ -1190,8 +1217,8 @@ body table:not(.table-condensed) td span {
     left: 0;
     right: 0;
     background: #000;
-    opacity: 0.4; 
-    z-index: 8;  
+    opacity: 0.4;
+    z-index: 8;
  }
  .breadcrumbHeath > * {
      position: relative;
