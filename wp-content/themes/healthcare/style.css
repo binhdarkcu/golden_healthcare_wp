@@ -87,6 +87,17 @@ body#home #services-slider .content p{
 .woocommerce #respond input#submit.alt.disabled, .woocommerce #respond input#submit.alt.disabled:hover, .woocommerce #respond input#submit.alt:disabled, .woocommerce #respond input#submit.alt:disabled:hover, .woocommerce #respond input#submit.alt:disabled[disabled], .woocommerce #respond input#submit.alt:disabled[disabled]:hover, .woocommerce a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled:hover, .woocommerce a.button.alt:disabled[disabled], .woocommerce a.button.alt:disabled[disabled]:hover, .woocommerce button.button.alt.disabled, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled:hover, .woocommerce button.button.alt:disabled[disabled], .woocommerce button.button.alt:disabled[disabled]:hover, .woocommerce input.button.alt.disabled, .woocommerce input.button.alt.disabled:hover, .woocommerce input.button.alt:disabled, .woocommerce input.button.alt:disabled:hover, .woocommerce input.button.alt:disabled[disabled], .woocommerce input.button.alt:disabled[disabled]:hover {
     background: #f7931d;
 }
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row select {
+    height: 35px;
+    border: 1px solid #e2e2e2;
+    padding-left: 10px;
+}
+.woocommerce form .form-row textarea {
+    border: 1px solid #e2e2e2;
+    padding-left: 10px;
+    padding-top: 10px;
+}
 .woocommerce div.product p.price, .woocommerce div.product span.price {
     color: #f7931d!important;
     font-weight: 700;

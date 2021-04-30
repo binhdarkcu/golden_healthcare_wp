@@ -473,6 +473,21 @@
     // function bbloomer_redirect_checkout_add_cart() {
     //    return wc_get_checkout_url();
     // }
+
+    /**
+     * Change the default state and country on the checkout page
+     */
+    add_filter( 'default_checkout_billing_country', 'change_default_checkout_country' );
+    add_filter( 'default_checkout_billing_state', 'change_default_checkout_state' );
+
+    function change_default_checkout_country() {
+      return 'VN'; // country code
+    }
+
+    function change_default_checkout_state() {
+      return 'VN'; // state code
+    }
+
     /* The AJAX handler function */
     function localize_my_scripts() {
         wp_enqueue_style( 'slick', get_template_directory_uri(). '/assets/slick.css', array(), '0.1.0', 'all');
