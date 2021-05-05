@@ -480,6 +480,59 @@
     add_filter( 'default_checkout_billing_country', 'change_default_checkout_country' );
     add_filter( 'default_checkout_billing_state', 'change_default_checkout_state' );
 
+    function my_array_unique($array, $keep_key_assoc = false){
+        $duplicate_keys = array();
+        $tmp = array();
+
+        foreach ($array as $key => $val){
+            // convert objects to arrays, in_array() does not support objects
+            if (is_object($val))
+                $val = (array)$val;
+
+            if (!in_array($val, $tmp))
+                $tmp[] = $val;
+            else
+                $duplicate_keys[] = $key;
+        }
+
+        foreach ($duplicate_keys as $key)
+            unset($array[$key]);
+
+        return $keep_key_assoc ? $array : array_values($array);
+    }
+
+
+    function get_product_variation_id( $danhmuc, $gioitinh, $product_id = 0 ) {
+        global $wpdb;
+        if ( $product_id == 0 )
+            $product_id = get_the_id();
+
+        $queryDM = "pm.meta_key = 'attribute_pa_danh-muc-kham'
+        AND pm.meta_value LIKE '$danhmuc' AND ";
+
+        $queryGT = "pm2.meta_key = 'attribute_pa_gioi-tinh'
+        AND pm2.meta_value LIKE '$gioitinh' AND";
+
+        if(empty($danhmuc)) {
+            $queryDM = '';
+        }
+
+        if(empty($gioitinh)) {
+            $queryGT = '';
+        }
+
+        return $wpdb->get_var( "
+            SELECT p.ID
+            FROM {$wpdb->prefix}posts as p
+            JOIN {$wpdb->prefix}postmeta as pm ON p.ID = pm.post_id
+            JOIN {$wpdb->prefix}postmeta as pm2 ON p.ID = pm2.post_id
+            WHERE $queryDM
+            $queryGT
+             p.post_parent = $product_id
+        " );
+    }
+
+
     function change_default_checkout_country() {
       return 'VN'; // country code
     }

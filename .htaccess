@@ -2,11 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /goldenhealthcare/
+RewriteBase /golden/golden_healthcare_wp/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /goldenhealthcare/index.php [L]
+RewriteRule . /golden/golden_healthcare_wp/index.php [L]
 </IfModule>
 
 # END WordPress

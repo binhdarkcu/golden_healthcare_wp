@@ -31,7 +31,6 @@ if ( $product->is_in_stock() ) : ?>
 
 	<form class="cart" action="<?php echo esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $product->get_permalink() ) ); ?>" method="post" enctype='multipart/form-data'>
 		<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
-		<span style="float: left; margin-right: 5px; position: relative; top: 3px;">Số lượng: </span>
 		<?php
 		do_action( 'woocommerce_before_add_to_cart_quantity' );
 		woocommerce_quantity_input(
@@ -44,7 +43,7 @@ if ( $product->is_in_stock() ) : ?>
 
 		do_action( 'woocommerce_after_add_to_cart_quantity' );
 		?>
-		<button style="background: #ff6600;margin-left: 15px;" type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="single_add_to_cart_button button alt">Thêm vào giỏ hàng</button>
+		<button style="float: right;background: #ff6600;margin-left: 15px;" type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="single_add_to_cart_button button alt">Đặt gói khám</button>
 		<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
 	</form>
 
