@@ -32,7 +32,51 @@ body {
     font-weight: bold !important;
     color: #999 !important
 }
+.list-nhom-benh, .list-nhom-dich-vu {
+        padding-left: 0;
+    list-style-type: none;
+    margin-top: 15px;
+}
+.list-nhom-benh::after, .list-nhom-dich-vu:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.list-nhom-benh li, .list-nhom-dich-vu li{
+    float: left;
+    width: auto;
+    margin-right: 15px;
 
+}
+.list-nhom-benh li a, .list-nhom-dich-vu li{
+    border: 1px solid #d9d9d9;
+    color: #000;
+    padding: 10px 15px;
+}
+a.btn-dat-kham {
+    background: #f7931d;
+    color: #fff;
+    padding: 3px 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+button[name="update_cart"] {
+    background: #f7931d;
+    border-color: #f7931d;
+    color: #fff;
+    float: right;
+}
+.product-quantity .quantity .amount-text{
+    display: none;
+}
+.product-quantity .quantity .input-text.qty {
+    width: 50px;
+}
+.list-nhom-benh li a:hover {
+    color: #fff;
+    background: #f7931d;
+    border-color: #f7931d;
+}
 /* Style the current / hovered page link */
 .wp-pagenavi span.current,
 .wp-pagenavi a:hover {
