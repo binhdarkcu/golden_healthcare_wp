@@ -66,6 +66,39 @@ button[name="update_cart"] {
     color: #fff;
     float: right;
 }
+
+.single-product .site-main {
+    width: 1170px;
+    margin: 0 auto;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    border: none;
+    padding-left: 6px
+}
+#tab-title-description a{
+    font-size: 20px;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+    padding-left: 0!important;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs::before,
+.woocommerce div.product .woocommerce-tabs ul.tabs::after {
+    border: none;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs:before {
+    border: none;
+    display: none!important;
+}
+.single-product .site-main .woocommerce-breadcrumb{
+    display: none;
+}
+#tab-title-reviews {
+    display: none;
+}
+
+.single-product .sidebar_post, .single-product .entry-summary {
+    display: none
+}
 .product-quantity .quantity .amount-text{
     display: none;
 }

@@ -31,6 +31,7 @@ if ( post_password_required() ) {
 	return;
 }
 ?>
+<h3><?php the_title();?></h3>
 <div id="product-<?php the_ID(); ?>" <?php wc_product_class( '', $product ); ?>>
 
 	<?php
@@ -43,7 +44,7 @@ if ( post_password_required() ) {
 	do_action( 'woocommerce_before_single_product_summary' );
 	?>
 
-	
+
 
 	<?php
 	/**
